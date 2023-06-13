@@ -1,5 +1,3 @@
-using Icons.fss;
-
 base-tier {
     show: True;
     font-size: 20;
