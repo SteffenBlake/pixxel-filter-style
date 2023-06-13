@@ -1,6 +1,6 @@
 {
-  "name": "pixxel-filter",
-  "version": "1.0.0",
+  "name": "pixxel-filter-style",
+  "version": "1.0.1",
   "description": "PixxelKick's personally maintained public poefilterx Loot Filter",
   "main": "pixxel-filter.poefilterx",
   "author": {
