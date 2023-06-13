@@ -1,0 +1,95 @@
+using Icons.fss;
+
+base-tier {
+    show: True;
+    font-size: 20;
+    font-color: 0xFFFFFF;
+    border-color: 0xFFFFFF;
+    bg-color: 0x150F2D;
+    alert: enabled;
+    pillar-duration: Permanent;
+    pillar: enabled;
+    icon-size: 2;
+    icon-color: Grey;
+    icon: enabled;
+}
+
+junk-tier {
+    border-color: 0x150F2D;
+    alert: 2 150;
+    pillar-color: Grey;
+    font-size: 35;
+}
+
+meh-tier {
+    border-color: 0x150F2D;
+    bg-color: 0x41788B;
+    alert: 3 175;
+    icon-color: Green;
+    pillar-color: Green;
+    font-size: 40;
+}
+
+chaos-tier {
+    border-color: 0x41788B;
+    bg-color: 0x296088;
+    alert: 5 200;
+    icon-color: Blue;
+    pillar-color: Blue;
+    font-size: 45;
+}
+
+exalt-tier {
+    border-color: 0x296088;
+    bg-color: 0x6C1361;
+    alert: 1 225;
+    icon-color: Purple;
+    pillar-color: Purple;
+    font-size: 45;
+}
+
+divine-tier {
+    border-color: 0x6C1361;
+    bg-color: 0xA32D89;
+    alert: 6 250;
+    icon-color: Red;
+    pillar-color: Red;
+    font-size: 45;
+}
+
+mirror-tier {
+    border-color: 0xA32D89;
+    bg-color: 0x2E92F8;
+    alert: 6 300;
+    icon-color: Cyan;
+    pillar-color: Cyan;
+    font-size: 45;
+}
+
+special-tier {
+    border-color: 0xA32D89;
+    bg-color: 0x100F9D;
+    alert: 5 200;
+    icon-color: Orange;
+    pillar-color: Orange;
+    font-size: 45;
+    icon: enabled;
+}
+
+muted {
+    bg-color-alpha: 150;
+    font-size: 30;
+    alert-volume: 150;
+    pillar-duration: Temporary;
+    icon-size: 1;
+}
+
+scroll-tier {
+    border-color: 0x2E92F8;
+    alert: 12 150;
+    icon-color: Grey;
+}
+
+silent {
+    alert: disabled;
+}
