@@ -64,3 +64,7 @@ heist {
 scroll {
     icon-shape: UpsideDownHouse;
 }
+
+gold {
+    icon-shape: UpsideDownHouse;
+}

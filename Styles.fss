@@ -82,6 +82,12 @@ muted {
     icon-size: 1;
 }
 
+gold-tier {
+    border-color: 0x2E92F8;
+    alert: 12 150;
+    icon-color: Brown;
+}
+
 scroll-tier {
     border-color: 0x2E92F8;
     alert: 12 150;
